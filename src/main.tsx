@@ -1,4 +1,4 @@
-import './style.css' // Importa tus estilos
+import './index.css' // Importa tus estilos
 
 // --- Configuración de Supabase ---
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
