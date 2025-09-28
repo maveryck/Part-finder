@@ -1,13 +1,27 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Server Part Finder Web App</title>
+    <title>Server Part Finder</title>
   </head>
   <body>
-    <div id="root"></div>
+    <!-- El div 'app' ahora contiene la estructura inicial de la página -->
+    <div id="app">
+      <h1>Busca un Servidor</h1>
+      
+      <!-- El formulario que nuestro script necesita encontrar -->
+      <form id="search-form">
+          <input type="text" id="search-input" placeholder="Ej: PowerEdge R760" required />
+          <button type="submit">Buscar</button>
+      </form>
+      
+      <!-- El contenedor donde se mostrarán los resultados -->
+      <div id="results-container"></div>
+    </div>
+    
+    <!-- El script se carga al final y con 'defer' para máxima seguridad -->
     <script type="module" defer src="/src/main.js"></script>
   </body>
 </html>
