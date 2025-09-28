@@ -1,4 +1,4 @@
-import './style.css'; // Asegúrate de que este archivo CSS existe en la raíz o ajusta la ruta.
+import '/style.css'; // Asegúrate de que este archivo CSS existe en la raíz o ajusta la ruta.
 
 // --- Configuración de Supabase (Lee las variables de entorno) ---
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
