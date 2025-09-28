@@ -1,4 +1,8 @@
-import './style.css'
+// Cambia esto:
+import './style.css';
+
+// Por esto:
+import '../src/index.css'; // Asumiendo que existe un archivo index.css en la carpeta src
 
 // --- Configuración de Supabase ---
 // Este código buscará las variables VITE_SUPABASE_URL y VITE_SUPABASE_KEY
