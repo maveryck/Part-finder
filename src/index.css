@@ -1,3 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+body {
+  font-family: sans-serif;
+  padding: 2em;
+}
+
+#search-form input {
+  padding: 0.5em;
+  margin-right: 0.5em;
+}
+
+#search-form button {
+  padding: 0.5em 1em;
+}
